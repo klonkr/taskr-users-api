@@ -6,6 +6,7 @@ namespace taskr_users_api.Controllers
     {
         public IActionResult Index()
         {
+            var test = "this is a test";
             return View();
         }
 
